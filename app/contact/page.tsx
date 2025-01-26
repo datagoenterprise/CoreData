@@ -3,6 +3,12 @@ import Script from "next/script";
 import { Database, Globe, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-[#020817] text-white relative">

@@ -13,8 +13,13 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ImageCarousel } from "@/components/image-carousel";
-import { VideoGallery } from "@/components/video-gallery";
+
+
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
 
 export default function HomePage() {
   useEffect(() => {

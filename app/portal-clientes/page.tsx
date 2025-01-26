@@ -5,6 +5,13 @@ import { useState } from "react";
 import { Database, Globe, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
+
+
 export default function PortalClientesPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

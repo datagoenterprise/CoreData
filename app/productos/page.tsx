@@ -9,6 +9,13 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
+
+
 export default function HomePage() {
   useEffect(() => {
     const link = document.createElement("link");

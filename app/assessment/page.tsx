@@ -4,6 +4,12 @@ import Link from "next/link";
 import { useState } from "react";
 import { Database } from "lucide-react";
 
+declare global {
+  interface Window {
+    Calendly: any;
+  }
+}
+
 export default function AssessmentPage() {
   const [submitted, setSubmitted] = useState(false);
   const [email, setEmail] = useState("");
