@@ -67,6 +67,11 @@ export default function HomePage() {
                 Assessment
               </Button>
             </Link>
+            <Link href="/reclutamiento">
+              <Button className="bg-gray-700 hover:bg-gray-800 transition-colors">
+                Reclutamiento
+              </Button>
+            </Link>
             <Link href="/portal-clientes">
               <Button variant="outline" className="border-blue-500 text-blue-500 hover:bg-blue-500/10 transition-colors">
                 Portal Clientes

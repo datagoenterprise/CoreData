@@ -115,7 +115,7 @@ export default function HomePage() {
                   <p className="text-gray-300 text-lg mb-6">{product.description}</p>
                 </div>
                 <a 
-                  href="https://paypal.me/sebabure?country.x=AR&locale.x=es_XC" 
+                //href="https://paypal.me/sebabure?country.x=AR&locale.x=es_XC" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full"
