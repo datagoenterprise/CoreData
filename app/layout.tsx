@@ -16,7 +16,10 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Core Data",
   description: "Tu mejor solución en analítica de datos",
-};
+  icons: {
+    icon: '/favicon.ico',
+  },
+}
 
 export default function RootLayout({
   children,
