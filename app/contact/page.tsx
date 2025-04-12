@@ -32,12 +32,6 @@ export default function ContactPage() {
           </Link>
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              href="/nosotros"
-              className="text-sm font-medium hover:text-blue-400 transition-colors"
-            >
-              Nosotros
-            </Link>
-            <Link
               href="/productos"
               className="text-sm font-medium hover:text-blue-400 transition-colors"
             >
